@@ -52,7 +52,7 @@ public class PauseMenuManager : MonoBehaviour
             if(allowMainMenu)
             {
                 Time.timeScale=1;
-                SceneManager.LoadScene(0);
+                SceneManager.LoadScene(1);
             }
         }
 
@@ -71,7 +71,7 @@ public class PauseMenuManager : MonoBehaviour
                 {
                     //Main Menu Scene Load
                     Time.timeScale=1;
-                    SceneManager.LoadScene(0);
+                    SceneManager.LoadScene(1);
                 }
             }
 
